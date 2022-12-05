@@ -29,18 +29,4 @@ def main_function():
     dict_data["data"]["region"] = data[7]
     dict_data["data"]["maps"] = f"https://www.google.com/maps/place/{data[3]},{data[4]}"
     print(dict_data)
-    #datas = " ".join([result.text for result in find])
-    #for result in find:
-        #print(result.text.split("\n")[0]
-    #data = datas.split()
-    #print(data)
-    #i=-1
-    #for count in data:
-        #i+=1
-        #print(i, count)
-        #waktu.append(f'{data[1]} {data[2]}')
-        #regex = r"^(?:(?:([01]?\d|2[0-3]):)?([0-5]?\d):)?([0-5]?\d)$"
-        #m = re.findall(regex, count)
-        #print(m)
-    #print(waktu)
 main_function()
